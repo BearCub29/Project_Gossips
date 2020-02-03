@@ -2,7 +2,7 @@
 
 ## Installation et utilisation
 
-1 Placez vous où vous souhaitez cloner le Gossip en ligne..
+1 Placez vous où vous souhaitez cloner le Gossip en ligne ⋅⋅
 2`$ git clone https://github.com/BearCub29/Project_Gossips`
 3`$ cd the_gossip_project_sinatra`
 4`$ bundle install`
