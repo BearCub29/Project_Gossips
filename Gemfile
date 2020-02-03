@@ -1,4 +1,7 @@
-source "https://rubygems.org"
-ruby '2.6.1'
+source 'https://rubygems.org/'
+ruby '2.5.1'
+gem 'pry'
+gem 'rubocop'
 gem 'sinatra'
 gem 'shotgun'
+gem 'csv'

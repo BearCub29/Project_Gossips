@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Editer Gossip</title>
+  </head>
+  <body>
+    <h1>Editer Gossip !</h1>
+    <p>Voici la page d'edition du Gossip n°<%=id%></p>
+    <form action='/gossips/<%= id %>/edit/' method='POST'>
+      Saisi ici ton nom :  <input type='text' name='new_author'/><br/>
+      Balance la modif : <input type='text' name='new_content'/><br/>
+      <input type='submit'/>
+    </form>
+  </body>
+</html>

@@ -19,4 +19,12 @@ class Gossip
   def self.find(id)
     Gossip.all[id-1]
   end
+  def self.edit(index,new_author,new_content)
+    gossips = Gossip.all
+    gossips[index-1]= Gossip.new(new_author,new_content)
+    File.open("./db/gossip.csv","wb") do |g|
+      g << ""
+    end
+    gossips.map {|q| q.save}
+  end
 end
